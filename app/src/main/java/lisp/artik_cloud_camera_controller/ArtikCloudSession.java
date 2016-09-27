@@ -45,14 +45,14 @@ public class ArtikCloudSession {
     private final static String TAG = ArtikCloudSession.class.getSimpleName();
 
     // Copy from the corresponding application in the Developer Dashboard
-    public static final String CLIENT_ID = "5bf4498c939b40f1a0ded23b8e093e83";
+    public static final String CLIENT_ID = "<YOUR APPLICATION ID>";
 
     // Copy from the Device Info screen in My ARTIK Cloud
-    private final static String DEVICE_ID = "0b5cfbecdfa04fbfa8b7a331c85fb6a0";
+    private final static String DEVICE_ID = "<YOUR DEVICE ID>";
 
     private static final String ARTIK_CLOUD_AUTH_BASE_URL = "https://accounts.artik.cloud";
     // Response of application when success authorised
-    public static final String REDIRECT_URL = "android-app://redirect";
+    public static final String REDIRECT_URL = "<REDIRECT URL OF APPLICATION>";
 
     private final static String DEVICE_NAME = "Android Camera Tracker";
     // Actions must be defined in manifest
